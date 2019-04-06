@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=Rating
+comment0.text=\ \r\n\ AUTHOR\r\n\ Capstone\ project\ for\ the\ "JAVA\ Programming\ and\ Software\ \r\n\ Enginnering\ Fundamentals"\ Specialization\ by\ Coursera/DukeUniversity.\r\n\ @Author(jonilearncode)\r\n\ @Version(05042019)\r\n\ \r\n\ CLASS\ DESCRIPTION\r\n\ Class\ for\ storing\ the\ data\ about\ one\ rating\ of\ an\ item.\r\n
+comment1.params=anItem\ aValue
+comment1.target=Rating(java.lang.String,\ double)
+comment2.params=
+comment2.target=java.lang.String\ getItem()
+comment3.params=
+comment3.target=double\ getValue()
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment5.params=other
+comment5.target=int\ compareTo(Rating)
+numComments=6
