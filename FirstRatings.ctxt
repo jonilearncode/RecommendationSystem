@@ -2,6 +2,12 @@
 comment0.target=FirstRatings
 comment1.params=filename
 comment1.target=java.util.ArrayList\ loadMovies(java.lang.String)
-comment2.params=
-comment2.target=void\ testLoadMovies()
-numComments=3
+comment2.params=filename
+comment2.target=java.util.ArrayList\ loadRaters(java.lang.String)
+comment3.params=list\ raterID
+comment3.target=boolean\ checkID(java.util.ArrayList,\ java.lang.String)
+comment4.params=
+comment4.target=void\ testLoadRaters()
+comment5.params=
+comment5.target=void\ testLoadMovies()
+numComments=6

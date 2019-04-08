@@ -83,7 +83,7 @@ public class Movie {
     // Returns a string of the item's information
     public String toString () {
         String result = "Movie [id=" + id + ", title=" + title + ", year=" + year;
-        result += ", genres= " + genres + "]";
+        result += ", genres= " + genres + ", director= " + director + "]";
         return result;
     }
 }
