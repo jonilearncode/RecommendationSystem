@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=MovieRunnerWithFilters
+comment1.params=
+comment1.target=void\ initialize()
+comment10.params=myRating
+comment10.target=void\ sortByAvgRating(java.util.ArrayList)
+comment11.params=myRating\ numSorted
+comment11.target=void\ onePassBubbleSort(java.util.ArrayList,\ int)
+comment12.params=myRating
+comment12.target=boolean\ checkInSortedOrder(java.util.ArrayList)
+comment2.params=minRaters\ directors\ minMinutes\ maxMinutes
+comment2.target=void\ printAverageRatingsByDirectorsAndMinutes(int,\ java.lang.String,\ int,\ int)
+comment3.params=minRaters\ year\ genre
+comment3.target=void\ printAverageRatingsByYearAndGenre(int,\ int,\ java.lang.String)
+comment4.params=minRaters
+comment4.target=void\ printAverageRatings(int)
+comment5.params=minRaters\ year
+comment5.target=void\ printAverageRatingsByYear(int,\ int)
+comment6.params=minRaters\ genre
+comment6.target=void\ printAverageRatingsByGenre(int,\ java.lang.String)
+comment7.params=minRaters\ minMinutes\ maxMinutes
+comment7.target=void\ printAverageRatingsByMinutes(int,\ int,\ int)
+comment8.params=minRaters\ directors
+comment8.target=void\ printAverageRatingsByDirectors(int,\ java.lang.String)
+comment9.params=myRating\ minRaters\ standard\ year\ genre\ time\ directors
+comment9.target=void\ printResults(java.util.ArrayList,\ int,\ boolean,\ boolean,\ boolean,\ boolean,\ boolean)
+numComments=13
