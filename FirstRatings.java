@@ -19,8 +19,7 @@ public class FirstRatings {
     private ArrayList<Movie> moviesList;
     private ArrayList<Rater> ratersList;
     
-    public FirstRatings() {
-        
+    public FirstRatings() {        
     };
     
     public ArrayList<Movie> loadMovies(String filename) {
@@ -44,25 +43,16 @@ public class FirstRatings {
     
     public ArrayList<Rater> loadRaters(String filename) {
         ratersList = new ArrayList<Rater>();
+        //myMap = new HashMap<String,Rater>();
         FileResource fr = new FileResource("data/"+filename);
         CSVParser parser = fr.getCSVParser();
         for(CSVRecord record : parser) {
             String raterID = record.get("rater_id");
             String movieID = record.get("movie_id");
             double rating = Double.parseDouble(record.get("rating"));
-            
-            //to delete
-            /*if(ratersList.isEmpty()) {
-                Rater rater = new Rater(raterID);
-                rater.addRating(movieID, rating);
-                ratersList.add(rater);                
-                System.out.println("I ran one time");
-            };*/
-            
-            
             //Run trough the list, if curr id doesn't exist in the list then add to the list.
-            if(!checkID(ratersList, raterID)) {                
-                Rater rater = new Rater(raterID);
+            if(!checkID(ratersList, raterID)) {
+                Rater rater = new EfficientRater(raterID);
                 rater.addRating(movieID, rating);
                 ratersList.add(rater);                
             } else {
@@ -91,8 +81,6 @@ public class FirstRatings {
         return -1;
     };
     
-    
-    
     public void testLoadRaters() {
         ArrayList<Rater> myList = loadRaters("ratings.csv");
         System.out.println("There are " + myList.size() + " raters in this file.");
@@ -115,7 +103,7 @@ public class FirstRatings {
                 };
             };
         };
-        System.out.println("The movieID " + movieID + " has " + numOfRaters + " raters.");
+        //System.out.println("The movieID " + movieID + " has " + numOfRaters + " raters.");
         return numOfRaters;
     };
     
