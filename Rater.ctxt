@@ -12,4 +12,6 @@ comment5.params=
 comment5.target=int\ numRatings()
 comment6.params=
 comment6.target=java.util.ArrayList\ getItemsRated()
-numComments=7
+comment7.params=
+comment7.target=java.util.ArrayList\ getRatingsFromRater()
+numComments=8
