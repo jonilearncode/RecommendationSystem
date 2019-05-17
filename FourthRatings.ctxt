@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=FourthRatings
+comment1.params=
+comment1.target=FourthRatings()
+comment10.params=ID
+comment10.target=java.util.ArrayList\ getSimilarities(java.lang.String)
+comment2.params=movieID\ minRaters
+comment2.target=double\ getAverageByID(java.lang.String,\ int)
+comment3.params=minRaters\ filterCriteria
+comment3.target=java.util.ArrayList\ getAverageRatingsByFilter(int,\ Filter)
+comment4.params=minRaters
+comment4.target=java.util.ArrayList\ getAverageRatings(int)
+comment5.params=ID\ numSimilarRaters\ minRaters
+comment5.target=java.util.ArrayList\ getSimilarRatings(java.lang.String,\ int,\ int)
+comment6.params=ID\ numSimilarRaters\ minRaters\ filterCriteria
+comment6.target=java.util.ArrayList\ getSimilarRatingsByFilter(java.lang.String,\ int,\ int,\ Filter)
+comment7.params=similarities
+comment7.target=java.util.ArrayList\ getRatersFromDatabase(java.util.ArrayList)
+comment8.params=raterID\ movieID
+comment8.target=boolean\ checkIfMovieWasRated(java.lang.String,\ java.lang.String)
+comment9.params=me\ r
+comment9.target=double\ dotProduct(Rater,\ Rater)
+numComments=11
