@@ -53,4 +53,12 @@ public class EfficientRater implements Rater  {
         };        
         return list;
     }
+    
+    public ArrayList<Rating> getRatingsFromRater() {
+        ArrayList<Rating> raterRatings = new ArrayList<Rating>();
+        for(Rating rating : myMap.values()) {
+            raterRatings.add(rating);
+        };
+        return raterRatings;
+    };
 }
